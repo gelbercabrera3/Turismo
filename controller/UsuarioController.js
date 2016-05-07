@@ -15,7 +15,7 @@ module.exports = function (app) {
                 telefono: req.body.telefono
             }).then(function (usuario) {
                 res.json(usuario)
-            })
+            });
         },
         
         list: function (req, res) {
